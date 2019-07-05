@@ -373,6 +373,11 @@ footer .cv-pdf i:hover {
 }
 
 
+.form-field-spacing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
@@ -387,6 +392,7 @@ button[type="submit"] {
 }
 
 /*--------------------------------------------Map*/
+
 div#map {
     min-height: 360px;
 }
@@ -407,5 +413,3 @@ div#map {
         max-width: 50%;
     }
 }
-
-
