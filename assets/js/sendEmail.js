@@ -12,5 +12,5 @@ function sendMail(contactForm) {
                 console.log("FAILED", error);
             }
         );
-    return false; // To block from loading a new page
+    return false; // To block from loading a new page - This line was in the source code in the tutorial. If I take this away, the email function doesn't work... :`(
 }
