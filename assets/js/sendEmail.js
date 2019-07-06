@@ -7,10 +7,13 @@ function sendMail(contactForm) {
         .then(
             function(response) {
                 console.log("SUCCESS", response);
+                setTimeout("location.href = 'contact_AFTER_SEND.html';",250); // I added this line of code in myself, so the user will know that their message was sent successfully. 
+                
             },
             function(error) {
                 console.log("FAILED", error);
             }
         );
-    return false; // To block from loading a new page - This line was in the source code in the tutorial. If I take this away, the email function doesn't work... :`(
+    return false; // To block from loading a new page, this was originally in the tutorial notes. 
 }
+S
