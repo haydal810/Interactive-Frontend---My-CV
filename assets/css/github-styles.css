@@ -161,7 +161,7 @@ img {
 /* input field */
 
 #gh-username {
-  display: block;
+  /* display: block; */ /* Taken out by Dave 7/7/19 */ 
   padding: 5px 8px;
   font-size: 1.4em;
   color: #666;
